@@ -1,157 +1,851 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
-    <link rel="stylesheet" href="introduction.css">
-    <link rel="shortcut icon" href="images/unnamed (1).png" type="image/x-icon">
-</head>
-<body>
-    <img src="https://opengameart.org/sites/default/files/robot-idle.gif" alt="My" class="robot"> 
-    <audio id="bg-music" loop>
-    <source src="music/Just Chillin'.mp3" type="audio/mp3">
-  </audio>
-    <span class="page">
-        <span class="tech">
-            <h1 style="font-size:40px; margin-bottom:-30px;">{ }</h1>
-            <h1 style="font-size: 40px;">Tech Stack</h1>
-            <p style="font-size: 20px;">Frontend:</p>
-            <div>
-                <button class="front">HTML</button>
-                <button class="front">CSS</button>
-                <button class="front">Javascript</button>
-                <button class="front">Figma</button>
-            </div>
-            <p style="font-size: 20px;">Backened:</p>
-            <div>
-                <button class="back">Java</button>
-                <button class="back">C++</button>
-                <button class="back">Python</button>
-            </div>
-            <p style="font-size: 20px;">D0 & Service</p>
-            <div>
-                <button class="service">Marketing</button>
-                <button class="service">Tution</button>
-                <button class="service">Homework</button>
-                <button class="service">Babysitting</button>
-            </div>
-        </span>
-        <span class="profile">
-            <img id="picture" src="images/c379eace43050da383dc9a029617f0fc.jpg">
-            <h2 class="name">Shaur... <span class="japaense">シャウリヤ</span> <br> <h3 style="opacity: 0.8;margin-top: -10px;" class="id">@shauryaditya.chauhan</h3> </h2>
-            <br>
-            <h3>I build crazy Stuff</h3>
-            <h3 style="opacity: 0.8;left: 20px;position: relativ;">Hey, I am Shauryaditya Singh a 18 year old CS student at Scaler School of Technology</h3>
-            <br><br><br>
-            <p id="context">"Will I ever become Successfull?"  </p>
-            <p class="available" style="font-size: 18px;">
-                <button id="statusBtn"></button><p id="available" style="opacity: 0.8;">Available for work</p>
-                <p id="datetime"></p>
-            </p>
-        </span>
-        <span class="social">
-            <h1 style="font-size: 50px;">LIN <br>KS.</h1>
-            <span class="icons">
-            <a href="https://github.com/settings/profile"><img src="images/github-icon-filled-256.png" id="github"></a>
-            <a href="mailto:shauryaditya.25bcs10011@sst.scaler.com"><img src="images/google-gmail-logo-symbol-design-illustration-with-black-background-free-vector.jpg" id="gmail"></a>
-            <a href="https://www.linkedin.com/in/shauryaditya-singh-86b218347/"><img src="images/6bab3017350ca04c6fa05569672bd31e.jpg" id="linkedin"></a>
-            <a href="https://discord.com/users/846716800645464094"><img src="images/b584b1776f49b350c54e5172f9a1f102.jpg" id="discord"></a>
-            <a href="https://x.com/Shaury_Aditya_S"><img src="images/new-2023-twitter-logo-x-icon-design_1017-45418.jpg" id="x"></a>
-            </span>
-        </span>
-        <span class="slide">
-            <div class="daily">
-                <a href="https://code.visualstudio.com/"><img src="images/vs-code-social-preview.png" class="logo"> </a>
-                <a href="https://code.visualstudio.com/"><img src="images/davinci-resolve.png" class="logo"> </a>
-                <a href="https://code.visualstudio.com/"><img src="images/Figma.png" class="logo"> </a>
-                <a href="https://code.visualstudio.com/"><img src="images/images.jpeg" class="logo"> </a>
-            </div>
-            <div class="dailytext">
-              <h1 style="line-height: 0.5;">Daily </h1>
-              <h2 style="line-height: 0.5;">Tool</h2>
-              <h1 style="line-height: 0.5;">Stack</h1>
-              <img class="space" src="images/Space-Tourist-Explore-pixel-vibes-GIFs.gif">
-              <br><br><br><br>
-              <img class="spacebox" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3c3FoZGMxMjhxam52YzMzcDk0dGJseWJheTl2MXdhcnJsZXZlNTZzMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zMNbsUvA2gK7hKhyoT/giphy.gif">
-              <br><br><br><br><br><br><br>
-              <h3>Just got bored again!</h3>
-            </div>
-            <div class="interest">
-              <img src="images/sun.gif" class="interestlogo">
-              <br><br><br><br>
-              <h3>I want to shine as bright as the sun!</h3>
-              <img src="images/noruto2.jpg" class="interestlogo">
-              <br><br><br><br><br><br>
-              <h3>I'm gonna be Hokage one day.</h3>
-            </div>
-        </span>
-        <span class="blog">
-            <h1 style="font-size: 50px;">BLOG</h1>
-            <h3>"Hey, guys my name is <span style="color:lawngreen">Shauryaditya Singh</span> and I love to write about my experiences and learnings in tech."</h3>
-            <h3>I am student a 1st year CS student at <span style="color:cyan">Scaler School of Technology</span></h3>
-            <h3>My idiolize is that if I am not the best ,<span style="opacity: 0.8;">I will do the same work differently in my style</span></h3>
-            <h3>My goal is to become a successful software engineer and make a positive impact in the tech industry.</h3>
-            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnNkMmIyMTh0NW54c3JqNmNuMnVjN3o5YjV2NWNlN3NmNGUyaDBpayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NPC82QxThOUWIl7YMK/giphy.gif"  class="mouse">
-        </span>
-        <span class="project">
-          <h1 class="achievement">Achievements</h1>
-          <br>
-          <span class="photo">
-          <img src="images/Screenshot 2025-10-05 at 5.15.01 PM.png" id="ac1"></img>
-          <img src="images/Screenshot 2025-10-05 at 9.02.21 PM.png" id="ac1"></img>
-          <img src="images/school-paper.gif" id="ac1"></img>
-          </span>
-          <span class="text">
-            <h4>I secured 8th position in Buddy Codeforce Contest<br> which was held on 9/9/25.</h4>
-            <h4>I have 100% PSP till now.</h4>
-            <div class="line">
-            <h4>I scored 96% in 10th and 92.5% in 12th ISC.</h4>
-            </div>
-          </span>
-          <img src="images/im-sorry-i-texted-you-too-much-its-only-because-i-really-like-you-and-care-for-you.gif" id="sorry">
-          <br><br><br><br><br><br>
-          <h3 style="color: yellow;">Sorry ,right now I don't have that much achievements to show and all the projects I did are pretty small but in future I will definitely work on bigger projects and post on this website.<br>So till then stay tune.</h3>
-        </span>
-    </span>
-</body>
-<script>
-    const audio = document.getElementById("bg-music");
-    if (localStorage.getItem("playMusic") === "true") {
-      audio.play().then(() => {
-        console.log("Music started automatically 🎵");
-      }).catch(err => {
-        console.log("Playback blocked:", err);
-      });
-      localStorage.removeItem("playMusic");
+body
+{
+    background: url("images/tenor.gif");
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+img:hover
+{
+    width: 90px;
+    height: 90px;
+}
+.page
+{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "tech profile social"
+    "tech slide blog"
+    "project project project";
+    height: 1500px;
+}
+.tech
+{
+    margin: 10px;
+    padding-left:10px ;
+    border-radius:5% ;
+    grid-area: tech;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgb(164, 160, 160);
+}
+.front
+{
+    margin: 10px;
+    flex-direction: row;
+    border-radius: 10%;
+    width: 80px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+.robot:hover
+{
+    width: 90px;
+    height: 90px;
+}
+img
+{
+    margin-bottom: -90px;
+    width: 70px;
+    height: 70px;
+    transition: all 0.3s ease;
+}
+img:hover
+{
+    width: 72px;
+    height: 71px;
+}
+.back
+{
+    margin: 10px;
+    flex-direction: row;
+    border-radius: 10%;
+    width: 80px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+.service
+{
+    margin: 10px;
+    flex-direction: row;
+    border-radius: 10%;
+    width: 80px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+.profile {
+    position: relative;  
+    margin: 10px;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 3%;
+    grid-area: profile;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgb(164, 160, 160);
+    overflow: hidden;     
+}
+#picture
+{
+    border-radius: 10%;
+}
+.name
+{
+    position: relative;
+    left:90px
+}
+.id
+{
+    position: relative;
+    left: 90px;
+}
+.japaense
+{
+    position: relative;
+    left: 450px;
+}
+#context
+{
+    opacity: .8;
+}
+.available
+{
+    position: relative;
+    bottom: 50px;
+    left: 550px;
+}
+#statusBtn
+{
+    width: 2px;
+    height: 15px;
+    border-radius: 100%;
+    color: rgb(198, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+}
+#available
+{
+    position: relative;
+    bottom: 88px;
+    left: 570px;
+}
+ #datetime 
+{
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 250px;
+    opacity: 0.8;
+    bottom: 88px;
+    left: 500px;
+    font-size: 15px;
+}
+.social
+{
+    margin: 20px;
+    padding:10px ;
+    padding: 10px;
+    border-radius:5% ;
+    grid-area: social;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#github
+{
+    position: relative;
+    top:-170px;
+    left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+#github:hover
+{
+    position: relative;
+    top:-170px;
+    left: 150px;
+    width: 61px;
+    height: 61px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+#gmail
+{
+    position: relative;
+    top:-170px;
+    left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+#gmail:hover
+{
+    position: relative;
+    top:-170px;
+    width: 63px;
+    height: 63px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+#linkedin
+{
+    position: relative;
+    top:-50px;
+    left: -140px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+#linkedin:hover
+{
+    position: relative;
+    top:-50px;
+    left: -140px;
+    width: 63px;
+    height: 63px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+#discord
+{
+    position: relative;
+    top:-50px;
+    left: -90px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+#discord:hover
+{
+    position: relative;
+    top:-50px;
+    left: -90px;
+    width: 63px;
+    height: 63px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+#x
+{
+    position: relative;
+    top:-50px;
+    left: -50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+#x:hover
+{
+    position: relative;
+    top:-50px;
+    left: -20px;
+    width: 63px;
+    height: 63px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+.slide
+{
+    margin: 10px;
+    padding-left:10px ;
+    border-radius:5% ;
+    grid-area: slide;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgb(164, 160, 160);
+    grid-template-columns: 1fr 2fr 3fr;
+}
+.daily
+{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(164, 160, 160);
+    width: 100px;
+    display: grid;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 20px;
+    grid-template-columns:repeat(20px,4) ;
+    justify-content: center;
+
+}
+.logo
+{
+    border-radius: 5%;
+}
+.slide
+{
+    display: flex;
+}
+.displaytext
+{
+    display: flex  ;
+    flex-direction: column;
+    margin: 10px;
+}
+.dailytext>h1 
+{
+    font-size: 60px;
+    font-weight: 500;
+}
+.dailytext>hw
+{
+    font-size: 40px;
+}
+.mouse
+{
+    width: 350px;
+    height: 180px;
+    border-radius:5px ;
+}
+.mouse:hover
+{
+    width: 360px;
+    height: 190px;
+    box-shadow: 0 0 20px white;
+}
+.space
+{
+    position: relative;
+    top: -60px;
+    width: 200px;
+    border-radius: 10px;
+}
+.space:hover
+{
+    width: 210px;
+    box-shadow: 0 0 20px white;
+}
+.spacebox
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50px;
+}
+.spacebox:hover
+{
+    width: 210px;
+    height: 210px;
+    box-shadow: 0 0 20px white;
+}
+.interest
+{
+    padding-left: 30px;
+    margin: 20px;
+}
+.interestlogo
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.interestlogo:hover
+{
+    width: 260px;
+    height: 260px;
+    box-shadow: 0 0 20px white;
+}
+.blog
+{
+    margin: 10px;
+    padding-left:10px ;
+    border-radius:5% ;
+    grid-area: blog;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgb(164, 160, 160);
+}
+.project
+{
+    margin: 10px;
+    padding-left:10px ;
+    border-radius:5% ;
+    grid-area: project;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgb(164, 160, 160);
+}
+.achievement
+{
+    display: flex;
+    justify-self: center;
+}
+.photo
+{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+}
+#ac1
+{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+#ac1:hover
+{
+    width: 410px;
+    height: 310px;
+    box-shadow: 0 0 20px white;
+}
+.text
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+    body > img:first-of-type {
+        width: 50px;
+        height: 50px;
+        top: 5px;
+        left: 5px;
     }
-    function updateButton() {
-      const button = document.getElementById("statusBtn");
-      const hour = new Date().getHours(); 
-      if (hour >= 6 && hour < 21) { 
-        button.style.backgroundColor = "lime";
-        button.textContent = "";
-      } else {
-        button.style.backgroundColor = "red";
-        button.textContent = " ";
-      }
+    .page {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "profile"
+            "social"
+            "tech"
+            "slide"
+            "blog"
+            "project";
+        height: auto;
     }
-    updateButton(); 
-    function updateDateTime() {
-      const now = new Date();
-      const options = {  
-        year: "numeric",    
-        month: "long",      
-        day: "numeric",     
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit"
-      };
-      document.getElementById("datetime").textContent = 
-        now.toLocaleString("en-US", options);
+
+    .tech {
+        height: auto;
+        padding: 20px;
     }
-    setInterval(updateDateTime, 1000);
-    updateDateTime(); 
-    
-  </script>
-</html>
+
+    .profile {
+        height: auto;
+        padding: 20px;
+    }
+
+    .name {
+        left: 90px;
+    }
+
+    .japaense {
+        left: 200px;
+    }
+
+    .available {
+        left: 350px;
+    }
+
+    #available {
+        left: 370px;
+    }
+
+    #datetime {
+        left: 300px;
+    }
+    .social {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .social h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #github, #gmail {
+        top: 0;
+        left: 0;
+        position: relative;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    #linkedin, #discord, #x {
+        top: 0;
+        left: 0;
+        position: relative;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .slide {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .daily {
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .dailytext > h1 {
+        font-size: 45px;
+    }
+
+    .interest {
+        padding-left: 10px;
+    }
+
+    .interestlogo {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .blog {
+        height: auto;
+        padding: 20px;
+    }
+    .project {
+        height: auto;
+        padding: 20px;
+    }
+
+    .photo {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #ac1 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .text {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #sorry {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .page {
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "profile"
+            "social"
+            "tech"
+            "slide"
+            "blog"
+            "project";
+        height: auto;
+        padding: 0 5px;
+    }
+
+    .tech {
+        height: auto;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .tech h1 {
+        font-size: 30px !important;
+    }
+
+    .tech p {
+        font-size: 18px !important;
+    }
+
+    .front, .back, .service {
+        width: 70px;
+        height: 35px;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .profile {
+        height: auto;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    #picture {
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .name {
+        left: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .id {
+        left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .japaense {
+        left: 0;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #context {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .available {
+        position: static;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #statusBtn {
+        position: static;
+    }
+
+    #available {
+        position: static;
+        margin-top: 10px;
+    }
+
+    #datetime {
+        position: static;
+        width: 90%;
+        max-width: 250px;
+        margin: 10px auto;
+        text-align: center;
+        padding: 5px;
+    }
+    .social {
+        height: auto;
+        padding: 20px 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .social h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #github, #gmail, #linkedin, #discord, #x {
+        position: static;
+        width: 60px;
+        height: 60px;
+        margin: 10px 5px;
+        display: inline-block;
+    }
+
+    .social a {
+        display: inline-block;
+    }
+
+    .slide {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .daily {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+
+    .dailytext {
+        text-align: center;
+    }
+
+    .dailytext > h1 {
+        font-size: 35px;
+    }
+
+    .dailytext > h2 {
+        font-size: 25px;
+    }
+
+    .space {
+        width: 100%;
+        max-width: 200px;
+        top: 0;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .spacebox {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .interest {
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .interestlogo {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .blog {
+        height: auto;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .blog h1 {
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    .blog h3 {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .blog img {
+        width: 100% !important;
+        max-width: 350px;
+        height: auto !important;
+        display: block;
+        margin: 20px auto;
+    }
+    .project {
+        height: auto;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .achievement {
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .photo {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    #ac1 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        aspect-ratio: 4/3;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .text {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text h4 {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    #sorry {
+        width: 90%;
+        max-width: 250px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .project h4:last-child {
+        font-size: 14px;
+        padding: 10px;
+        line-height: 1.6;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .page {
+        margin-top: 80px;
+    }
+
+    .japaense {
+        left: 350px;
+    }
+
+    .available {
+        left: 450px;
+    }
+
+    #available {
+        left: 470px;
+    }
+
+    #datetime {
+        left: 400px;
+    }
+
+    .social h1 {
+        font-size: 45px;
+    }
+
+    #github, #gmail {
+        left: 120px;
+    }
+
+    #linkedin, #discord, #x {
+        left: -120px;
+    }
+}
+@media screen and (min-width: 1441px) {
+    .page {
+        max-width: 1600px;
+        margin: 100px auto;
+    }
+}
