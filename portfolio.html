@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>Portfoilio</title>
+    <link rel="shortcut icon" href="images/unnamed (1).png" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body >
+    <span class="first">
+    <legend></legend> 
+    <h2>If you want to follow my crazy journey of becoming a legend, just click  <a href="introduction.html" style="text-decoration: none;"  class="transition-link"><span style="color:yellow ;">“EXPLORE ABOUT ME”</span></a>, and I’ll share updates about my life <a href="https://www.instagram.com/shauryaditya.chauhan/" style="text-decoration: none;" ><span style="color: red;">Here</span></a> and on <a style="text-decoration: none;" href="https://www.linkedin.com/in/shauryaditya-singh-86b218347/"><span style="color: #70e000;">LinkedIn</span></a>.</h2>
+    <a href="introduction.html"><button id="nextBtn"></button></a>
+    </span>
+     <script>
+    document.getElementById("nextBtn").addEventListener("click", () => {
+      localStorage.setItem("playMusic", "true");
+      window.location.href = "introduction.html";
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("loaded");
+});
+  </script>
+</body>
+</html>

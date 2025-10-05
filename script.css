@@ -1,0 +1,267 @@
+body
+{
+    background:url("images/back.gif");
+    background-size: cover;
+    margin: 0px;
+    height: 100dvh;
+}
+.first
+{
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+legend
+{
+    margin: 200px;
+    margin-bottom:30px ;
+    width: max-content;
+}
+
+legend::after
+{
+    text-align: center;
+    content:"Shauryaditya Singh";
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    animation: changestyle 8s infinite forwards;
+}
+
+h2
+{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+button
+{
+    border-radius:5% ;
+    border: 1px #4cc9f0 ;
+    background-color: #4361ee;
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+    transition: 
+    opacity 1s ease-in-out,    
+    transform 1s ease-in-out,    
+    box-shadow 1s ease-in-out,
+    width 1s ease-in-out,
+    height 1s ease-in-out ,
+    font-size 1s ease-in-out;
+}
+
+button::after
+{
+    font-size: large;
+    content: "Click Here →";
+    animation: explore 5s infinite forwards ;
+}
+
+button:hover
+{
+    font-size: x-large;
+    width: 220px;
+    height: 60px;
+    font-size: larger;
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px #4361ee  ;
+    opacity: 0.4;
+}
+
+@keyframes changestyle
+{
+    0%
+    {
+        content: "Shauryaditya Singh";
+    }
+    50%
+    {
+        content: "A Crazy Person";
+    }
+    65%
+    {
+        content: "Mama's Boy";
+    }
+    80%
+    {
+        content: "Loves Tech";
+    }
+    95%
+    {
+        content: "and Manmeet Sir.";
+    }
+}
+
+@keyframes explore
+{
+    0%
+    {
+        content: "Click Here →";
+    }
+    50%
+    {
+        content: "Explore About ME";
+    }
+}
+@media screen and (min-width: 1200px) {
+    legend::after {
+        font-size: 120px;
+    }
+    
+    legend {
+        margin: 250px;
+        margin-bottom: 40px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+    
+    button {
+        width: 220px;
+        height: 55px;
+    }
+    
+    button:hover {
+        width: 240px;
+        height: 65px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    legend::after {
+        font-size: 80px;
+    }
+    
+    legend {
+        margin: 150px;
+        margin-bottom: 25px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    button {
+        width: 190px;
+        height: 48px;
+    }
+    
+    button:hover {
+        width: 210px;
+        height: 58px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    legend::after {
+        font-size: 70px;
+    }
+    
+    legend {
+        margin: 150px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    
+    button {
+        width: 180px;
+        height: 45px;
+    }
+    
+    button:hover {
+        width: 200px;
+        height: 55px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    legend::after {
+        font-size: 50px;
+    }
+    
+    legend {
+        margin: 100px;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    button {
+        width: 160px;
+        height: 42px;
+    }
+    
+    button::after {
+        font-size: medium;
+    }
+    
+    button:hover {
+        width: 180px;
+        height: 52px;
+    }
+}
+@media screen and (max-width: 575px) {
+    legend::after {
+        font-size: 35px;
+    }
+    
+    legend {
+        margin: 50px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    
+    button {
+        width: 140px;
+        height: 40px;
+        border-radius: 8px;
+    }
+    
+    button::after {
+        font-size: small;
+    }
+    
+    button:hover {
+        width: 160px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 375px) {
+    legend::after {
+        font-size: 28px;
+    }
+    
+    legend {
+        margin: 30px;
+        margin-bottom: 8px;
+    }
+    
+    h2 {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    
+    button {
+        width: 120px;
+        height: 38px;
+    }
+    
+    button:hover {
+        width: 140px;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+}
